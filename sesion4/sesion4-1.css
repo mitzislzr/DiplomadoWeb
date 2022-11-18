@@ -1,0 +1,18 @@
+h1, h2, h3{ 
+	color:pink; 
+	font-size:  20px;
+}
+#planta1 {
+	height: 250px;
+}
+#planta2 {
+	height: 260px;
+}
+.division{
+	background-color: pink;
+	height: 500px;
+}
+.division p {
+	background-color: green;
+	height: 50%;
+}

@@ -1,0 +1,35 @@
+/*da color a todo lo que contenga body*/
+/*rgb da color con rgb colores elegidos, y rgba difumina, 0.1 */
+/*se puede llamar con el codigo exadecimal bckground-color:  #6817A0; */
+body{background-color: rgba(104,23,160,0.4);
+
+}
+/*poniendo estilo con el nombre del elemento*/
+p{
+	background-color: yellow;
+}
+/*todos los elementos contenidos en div*/
+div p{
+	background-color: orange;
+	color:  green;
+}
+/*todos los elementos en a*/
+a{
+	color: gray;
+	background-color: pink;
+}
+/*para llamar a un id se utiliza # */
+/*elementos con id #titulo*/
+#titulo{
+	font-size: 100px;
+}
+/*para mandar a llamar una clase se utiliza . */
+.cafe{
+	background-color: orangere;
+	color: green;
+	font-size: 40px;
+}
+/* elementos h4 con clase cafe */
+h4.cafe{
+	font-size: 80px;
+}

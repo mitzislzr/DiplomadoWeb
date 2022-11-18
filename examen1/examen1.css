@@ -1,0 +1,15 @@
+#inicio{
+ background-color: cornflowerblue;
+  }
+#titulo{
+	text-align: center;
+	color: white;
+}
+#subti{
+	text-align: center;
+	color: black;
+}
+.img-fondo{
+	height: 700px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+}

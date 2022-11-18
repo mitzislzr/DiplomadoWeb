@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+		<title>sesion 4 formularios</title>
+</head>
+<body>
+	<!-- voy a comenzar un formulario -->
+	<form>
+		<!-- fieldset es un recuadro -->
+		<fieldset>
+			<!-- h1 el texto va dentro  -->
+			<h1> formulario </h1>
+			<!-- legend el texto va en la linea de arriba  -->
+			<legend> formulario </legend>
+			<!-- textarea recuadro donde se llena la informacion -->
+			<!-- cols y rows es el alt y ancho en pixeles  -->
+			<!-- si quieres texto en tu cuadro se escribe fuera  -->
+			<!-- placeholder texto que se borra al escribir -->
+			<textarea name="areatexto" cols="20" rows="10"
+			placeholder="escribe tu comentario"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<!-- input type checkbox te da recuadros para elegir -->
+			<input type="checkbox"> hombre
+			<input type="checkbox"> mujer
+			<input type="checkbox"> prefiero no contestar <br> </br>
+			elije la hora <input type="time">	<br> </br>
+			<!-- select te despliega lista de opciones  -->
+			<select name="asignaturas">
+				<!-- option value te da la opcion de cada registro  -->
+				<option value="mate">matematicas</option>
+				<option value="esp"> español</option>
+				<option value="ingles"> ingles </option>
+			</select>
+		</fieldset> <br> </br> 	
+		<!-- input type recuadros para rellenar -->
+		escuela <input type="text" placeholder="introduce la escuela" > <br>
+		<!-- input type radio te da a elegir con bolita -->
+		<input type="radio" > hombre <br>
+		<input type="radio"> mujer <br>
+		<!-- input type date te da caledario -->
+		<input type="date" >
+		<!-- input type color para elegir color -->
+		<input type="color" value="#ff0000"> 
+		<fieldset>
+			<!-- otro modo de poner botones -->
+			<input type="submit" value="enviar formulario">
+			<!-- reset borra todo el formulario  -->
+			<input type="reset">
+			<!-- vamos a darle dinamismo  -->
+			<input type="reset" value="sorpresa" onclick="alert">
+		</fieldset>
+	</form>
+</body>
+</html>

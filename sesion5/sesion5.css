@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+	background-color: pink;
+	font-family: 'Poor Story';
+	text-align: center;
+/*border:  sirve para agregar bordes al cuadro*/
+	border: 1px dotted purple;
+	/*border-width: 1px;
+	border-style: dotted;
+	border-color: purple;*/
+
+}
+
+#article-title{
+	/*transforma en mayusculas*/
+	text-transform: uppercase;
+}
+/* *= espara mandar a llamar los href que contengan 1 sola palabra */
+[href*="florence"]{
+	color:  orange;
+}
+[href*="beijing"]{
+	color:  green;
+}
+[href*="seoul"]{
+	color: darkred;
+}
+/* :hover es una pseudoclase (estado) que le va a dar estilo al objeto cuando nos situemos con el cursor sobre ella  */
+a:hover{
+	color: greenyellow;
+}
+
+img:hover{
+	opacity: 0.30;
+}
+/* .img-fondo te da la imagen de fondo - height- la altura en pixeles y background-image: url es donde podemos pegar el link de la imagen  */
+.img-fondo{
+	height: 700px;
+	background-image: url(https://www.holidify.com/images/bgImages/SEOUL.jpg) ;
+}

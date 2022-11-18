@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+:root{
+	--fondo: #EDC3F1;
+}
+*{
+	background-color: var(--fondo);}
+
+#ensalada{
+	height: 300px;
+	opacity: 0.7;}
+.description{
+	font-size: 20px;
+}
+#cook-time{
+	font-weight:  bold;}
+
+.ingredients{
+	list-style: square;
+}	
+.time{
+	color: grey;
+}
+.titulo{
+	font-family: 'Merriweather';}
+a:hover{
+	color: red;
+}
+div{
+	border:  2px solid mediumpurple;
+}
