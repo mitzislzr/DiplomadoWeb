@@ -1,0 +1,8 @@
+#carouselExampleCaptions{
+	width: 30%;
+
+}
+.car{
+	display: flex;
+	justify-content: center;
+}
